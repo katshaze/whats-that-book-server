@@ -1,0 +1,1 @@
+Basic Node.js (Express) backend that takes requests for books to search or provide info on, searches via the Goodreads API, and returns the data
