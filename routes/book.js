@@ -11,7 +11,6 @@ router.post("/", (req, res) => {
 
   // build api URL with user's book input & API KEY 
   const requestUrl = `https://www.goodreads.com/search.xml?key=${API_KEY}&q=${book}`;
-  console.log(requestUrl);
 
   // this is a promise pattern - switch up to async / await?
   axios
